@@ -6,8 +6,8 @@ Team Project – IT, Practical Assignment 1. Student ID: **73746**.
 
 - Application: https://vistula-team-project-73746.github.io/vistula-task-manager/
 - Repository: https://github.com/vistula-team-project-73746/vistula-task-manager
-- Contributor page (available after partner PR is merged): https://vistula-team-project-73746.github.io/vistula-task-manager/contribution.html
-- Contributor JSON (available after partner PR is merged): https://vistula-team-project-73746.github.io/vistula-task-manager/contribution.json
+- Contributor page: https://vistula-team-project-73746.github.io/vistula-task-manager/contribution.html
+- Contributor JSON: https://vistula-team-project-73746.github.io/vistula-task-manager/contribution.json
 
 ## Functionality
 
@@ -23,14 +23,13 @@ Display, create, edit, complete/uncomplete and delete tasks. Tasks are stored in
 
 This is a public classroom demonstration. Visitors can read and change all tasks. Store test data only.
 
-## Team collaboration — pending
+## Team collaboration
 
-- Outgoing Pull Request: https://github.com/RaufJumshudov73279/vistula-task-manager/pull/1 — **open; awaiting partner review and merge**.
-- Incoming Pull Request from student **73279**: **pending; partner must submit it from their own account**.
-- Partner repository: https://github.com/RaufJumshudov73279/vistula-task-manager
+Partner: student **73279**, GitHub account **Vistula-team-project-73279**.
 
-A different student must add `contribution.html` and `contribution.json` to this repository through their own Pull Request. Their JSON must contain their student ID. The repository owner reviews and merges that PR. Student 73746 must also fork the partner's repository and contribute those two files there, with contributorStudentId set to 73746, via a PR that the partner merges.
+- Outgoing PR by student 73746, merged by the partner: https://github.com/Vistula-team-project-73279/vistula-task-manager/pull/1
+- Incoming PR by student 73279, reviewed and merged by this repository owner: https://github.com/vistula-team-project-73746/vistula-task-manager/pull/1
 
-The contribution page must have the heading Team Contribution, button `load-contributor` (Show Contributor), an element `contributor-student-id`, and a link to `index.html`. Clicking the button must fetch `contribution.json` and display its contributorStudentId value. The partner should keep any JavaScript inside that HTML file so the contribution consists of exactly two files.
+The partner's incoming PR added contribution.html and contribution.json. On this website, Show Contributor fetches and displays **73279**. On the partner's website, the outgoing contribution displays **73746**.
 
-Both PR links must replace the pending entries above before submission. Submit only the main application URL in Platon after both parts work.
+Submit only the main application URL in Platon after checking the deployed pages.
